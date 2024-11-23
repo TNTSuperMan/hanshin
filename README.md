@@ -1,24 +1,12 @@
-# 恶臭数字论证器
-一个将任意数字分解成 114514 构成的公式的工具。
-
-## 项目首页
-[https://lab.magiconch.com/homo/](https://lab.magiconch.com/homo/)
-
-## 引用方式
-```HTML
-<script src="homo.js"></script>
+# 阪神数字论证器
+恶臭数字论证器の阪神バージョンであり、任意の数を334で構成された式に変換します。
+## 使用法
+```html
+<script src="hanshin.js"></script>
 <script>
-let 恶臭 = homo(1919810);
-// "114514*(11-4-5+14)+(114*514+(114*51*4+(1145*(1+4)+(11-4+5+1-4))))"
+let lose = hanshin(1919810);
+// "334334*(3/3+4)+33*4334+3*34334+33*43/3*4+3+3*43/3*4+3+3+43+3-4+33+4-3*3*4"
 </script>
 ```
-### CDN
-```HTML
-<script src="https://cdn.jsdelivr.net/gh/itorr/homo@master/homo.js"></script>
-```
-
-## 仓库地址
-[https://github.com/itorr/homo](https://github.com/itorr/homo)
-
-## 协议
-MIT
+## 元リポジトリ
+[itorr/homo](https://github.com/itorr/homo)
